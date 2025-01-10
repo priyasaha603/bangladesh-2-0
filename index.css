@@ -1,4 +1,186 @@
+body{
+    
+    font-family: "Fira Sans", serif;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.button{
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid green;
+    color: green;
+}
+.banner{
+border-radius: 24px;
+background: rgb(198, 228, 214);
+padding: 40px;
+display: flex;
+gap: 20px;
+justify-content: space-between;
+}
+.banner-text{
+    width: 600px;
+    padding-top: 60px;
+
+    
+}
+.banner-text h1{
+    font-size: 48px;
+}
+
+.banner-btn{
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: none;
+padding:16px;
+color: white;
+background: rgb(0, 106, 80);
+}
+
+
+.future-section{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+.future{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.div1{
+    box-sizing: border-box;
+border-radius: 16px;
+padding: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+.div1 button{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+color: white;
+background: rgb(84, 144, 245);
+}
+.div2{
+    box-sizing: border-box;
+border-radius: 16px;
+padding: 16px;
+background: rgb(198, 228, 214);
+}
+
+
+.div2 button{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+color: white;
+
+
+background: rgb(9, 161, 92);
+}
+
+.div3{
+
+box-sizing: border-box;
+border-radius: 16px;
+padding: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.div3 button{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+color: white;
+
+
+background: rgb(255, 194, 57);
+}
+
+
+.text{
+    padding: 16px;
+    
+background-color: white;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+
+}
+.text1{
+    background-image: url("./assets/quote-bg.png");
+    background-repeat: no-repeat;
+
+}
+.text2{
+padding: 10px;
+}
+
+
+.news1{
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    background-color: white;
+border-radius: 8px;
+}
+
+.news2{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    
+    background-color: white;
+    border-radius: 8px;
+
+}
+.news-img{
+    border-radius: 16px;
+}
+
+.donate{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+}
+.donate-div{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+display: flex;
+
+justify-content: space-evenly;
+}
+.common{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    border-radius: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    border: 2px solid grey;
+
+}
+.common:hover{
+    background-color:rgb(198, 228, 214) ;
+}
+
+.other{
+    padding: 5px;
+    border-radius: 12px;
+    background-color: white;
+    color: grey;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
